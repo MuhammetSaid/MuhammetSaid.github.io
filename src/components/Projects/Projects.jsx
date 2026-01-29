@@ -69,10 +69,10 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Weather App",
-      description: "Gerçek zamanlı hava durumu uygulaması. Kullanıcı dostu arayüz ve detaylı hava durumu bilgileri sunan modern bir mobil uygulama.",
+      title: "Yeşil Hidrojen Üretimi - Ekonomik Analiz Sistemi",
+      description: "Açık deniz rüzgar enerjisi kullanarak deniz suyundan yeşil hidrojen üretiminin ekonomik fizibilitesini analiz eden web tabanlı bir yazılım sistemi. Yatırımcılar için detaylı maliyet analizi ve optimizasyon çözümleri sunar.",
       image: hidrojenImage,
-      technologies: ["React Native", "API", "TypeScript"],
+      technologies: ["React.js", "PHP", "MySQL", "RO Technology", "Electrolysis"],
       link: "#",
       github: "#"
     }
