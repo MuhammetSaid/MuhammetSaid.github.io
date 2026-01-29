@@ -3744,12 +3744,1358 @@ export const projects = {
   },
   5: {
     id: 5,
-    title: "Geen",
-    description: "Gerçek zamanlı hava durumu uygulaması. Kullanıcı dostu arayüz ve detaylı hava durumu bilgileri sunan modern bir mobil uygulama.",
+    title: "Yeşil Hidrojen Üretimi: Açık Deniz Rüzgar Enerjisi İle Deniz Suyundan Hidrojen Üretimi Ekonomik Analiz Sistemi",
+    subtitle: "Renewable Energy and Web Development",
     image: hidrojenImage,
-    technologies: ["React Native", "API", "TypeScript"],
+    buttons: [ "Language", "Download", "Share", "Ask Question", "GitHub", "Demo"],
+    blocks: [
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Türkiye'nin enerji bağımsızlığı ve sürdürülebilir kalkınma hedefleri doğrultusunda geliştirilen "
+          },
+          {
+            "type": "bold",
+            "content": "Yeşil Hidrojen Üretimi Projesi"
+          },
+          {
+            "type": "normal",
+            "content": ", açık deniz rüzgar enerjisi kullanarak deniz suyundan hidrojen üretiminin ekonomik fizibilitesini analiz eden yenilikçi bir web tabanlı yazılım sistemidir. Bu proje, temiz enerji üretimi ile hidrojen ekonomisini birleştirerek Türkiye'nin enerji geleceğine ışık tutmayı amaçlamaktadır."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Proje Hakkında",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          marginTop: '1.4rem',
+          color: 'var(--text-color)',
+        }
+      },
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Bu proje, Türkiye'nin yenilenebilir enerji potansiyelini değerlendirerek, açık deniz rüzgar enerjisi ile deniz suyundan "
+          },
+          {
+            "type": "bold",
+            "content": "yeşil hidrojen"
+          },
+          {
+            "type": "normal",
+            "content": " üretiminin ekonomik analizini gerçekleştiren kapsamlı bir paket program geliştirmeyi hedeflemektedir. Sistem, yatırımcılar ve enerji şirketleri için detaylı maliyet analizi, fizibilite çalışmaları ve optimizasyon önerileri sunmaktadır."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Ana Özellikler",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "🌊 Deniz Suyu Desalinasyonu: Ters Ozmoz (RO) teknolojisi ile deniz suyundan tatlı su üretimi ve elektroliz için hazırlık"
+            },
+            {
+              "type": "normal",
+              "content": "⚡ Elektroliz Sistemi: PEM ve Alkalin elektrolizörler kullanarak su moleküllerinden hidrojen gazı üretimi"
+            },
+            {
+              "type": "normal",
+              "content": "💨 Rüzgar Enerjisi Entegrasyonu: Açık deniz rüzgar türbinlerinden elde edilen elektrik enerjisinin hidrojen üretimine dönüştürülmesi"
+            },
+            {
+              "type": "normal",
+              "content": "📊 Ekonomik Analiz Modülü: Detaylı maliyet hesaplamaları, CAPEX/OPEX analizi ve yatırım geri dönüş süreleri"
+            },
+            {
+              "type": "normal",
+              "content": "🔍 Optimizasyon Algoritmaları: Yapay zeka destekli sistem optimizasyonu ve verimlilik artırımı"
+            },
+            {
+              "type": "normal",
+              "content": "🌍 Çevresel Etki Analizi: CO₂ emisyon azaltımı hesaplamaları ve sürdürülebilirlik raporlaması"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+      
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Sistem Nasıl Çalışıyor?",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Sistem, "
+          },
+          {
+            "type": "bold",
+            "content": "üç ana aşamadan"
+          },
+          {
+            "type": "normal",
+            "content": " oluşan entegre bir yapıya sahiptir:"
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Enerji Üretimi: Açık deniz rüzgar türbinleri, yüksek rüzgar hızlarından faydalanarak elektrik enerjisi üretir. Türkiye'nin kıyı bölgeleri, özellikle Karadeniz ve Ege Denizi, yüksek rüzgar potansiyeline sahiptir."
+            },
+            {
+              "type": "normal",
+              "content": "Su Arıtma ve Hazırlık: Ters Ozmoz (RO) teknolojisi kullanılarak deniz suyu arıtılır ve elektroliz için uygun hale getirilir. RO membran sistemleri, deniz suyundaki tuzları ve mineralleri %99 oranında temizler."
+            },
+            {
+              "type": "normal",
+              "content": "Hidrojen Üretimi: Arıtılmış su, elektrolizörler aracılığıyla hidrojen ve oksijene ayrılır. PEM elektrolizörler yüksek saflıkta hidrojen üretirken, Alkalin elektrolizörler daha maliyet etkin çözümler sunar. Üretilen hidrojen, basınçlı tanklarda veya yeraltı depolama alanlarında saklanır."
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+          listStyle: 'decimal',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Web Tabanlı Analiz Sistemi",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+      
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Projenin yazılım kısmı, "
+          },
+          {
+            "type": "bold",
+            "content": "React.js "
+          },
+          {
+            "type": "normal",
+            "content": "frontend ve "
+          },
+          {
+            "type": "bold",
+            "content": "PHP "
+          },
+          {
+            "type": "normal",
+            "content": "backend teknolojileri kullanılarak geliştirilmiştir. Sistem, kullanıcıların:"
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Farklı rüzgar türbini kapasiteleri için simülasyon yapmasını"
+            },
+            {
+              "type": "normal",
+              "content": "Elektrolizör tiplerini karşılaştırmasını"
+            },
+            {
+              "type": "normal",
+              "content": "Deniz suyu arıtma maliyetlerini hesaplamasını"
+            },
+            {
+              "type": "normal",
+              "content": "Toplam yatırım maliyetini ve geri dönüş süresini analiz etmesini"
+            },
+            {
+              "type": "normal",
+              "content": "Çevresel etkiyi ve karbon emisyon tasarrufunu görselleştirmesini"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Ekonomik Model ve Hesaplamalar",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Sistem, kapsamlı ekonomik modellemeler gerçekleştirir. CAPEX (Sermaye Harcamaları) hesaplamalarında rüzgar türbini maliyeti, elektrolizör yatırımı, RO sistemi kurulumu ve altyapı giderleri detaylı şekilde analiz edilir. OPEX (İşletme Giderleri) bölümünde ise bakım maliyetleri, personel giderleri ve arıza-onarım masrafları yıllık bazda hesaplanır."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Teknolojik Altyapı",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Frontend: React.js ile Modern Arayüz",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "React.js kullanılarak geliştirilen kullanıcı arayüzü, responsive tasarım prensipleriyle tüm cihazlarda sorunsuz çalışır. Kullanıcılar, interaktif grafikler, dinamik hesaplama araçları ve detaylı raporlama özellikleri ile sistemin tüm fonksiyonlarına kolayca erişebilir."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Backend: PHP ile Güçlü Veri İşleme",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "PHP backend, karmaşık ekonomik hesaplamaları gerçekleştirir, kullanıcı verilerini güvenli şekilde saklar ve API endpoint'leri üzerinden frontend ile iletişim kurar. Veritabanı yönetimi, MySQL kullanılarak gerçekleştirilir."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Projenin Amacı ve Hedefleri",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Enerji Bağımsızlığı: Türkiye'nin dışa bağımlılığını azaltarak yerli ve yenilenebilir kaynaklardan enerji üretimini desteklemek"
+            },
+            {
+              "type": "normal",
+              "content": "Ekonomik Değerlendirme: Yatırımcılara ve karar vericilere detaylı ekonomik analiz ve fizibilite raporları sunmak"
+            },
+            {
+              "type": "normal",
+              "content": "Sürdürülebilir Kalkınma: Karbon emisyonlarını azaltarak çevre dostu enerji sistemlerinin yaygınlaşmasına katkı sağlamak"
+            },
+            {
+              "type": "normal",
+              "content": "Teknolojik İnovasyon: Yerli yazılım çözümleri ile enerji sektöründe dijital dönüşüme öncülük etmek"
+            },
+            {
+              "type": "normal",
+              "content": "Yatırım Optimizasyonu: Farklı senaryolar için en uygun sistem konfigürasyonunu belirlemek"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Teknik Detaylar",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Rüzgar Enerjisi Potansiyeli",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Türkiye, özellikle Karadeniz ve Ege Denizi kıyılarında yüksek rüzgar potansiyeline sahiptir. Global Wind Atlas verilerine göre, açık deniz bölgelerinde ortalama rüzgar hızı 7-9 m/s arasındadır. Bu potansiyel, verimli hidrojen üretimi için ideal koşullar sunmaktadır."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Elektroliz Teknolojileri",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '1.4rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Sistem, iki ana elektroliz teknolojisini destekler:"
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "PEM (Proton Exchange Membrane) Elektroliz: Yüksek saflıkta hidrojen üretimi (%99.9+), hızlı yanıt süresi, kompakt tasarım. Ancak daha yüksek maliyetli."
+            },
+            {
+              "type": "normal",
+              "content": "Alkalin Elektroliz: Daha düşük yatırım maliyeti, kanıtlanmış teknoloji, uzun ömür. Ancak daha büyük boyutlar ve daha yavaş yanıt süresi."
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Deniz Suyu Arıtma Sistemi",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '1.4rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Ters Ozmoz (RO) teknolojisi ile deniz suyu önce ön arıtmadan geçirilir, ardından yüksek basınçlı membranlardan geçirilerek tuzdan arındırılır. Sistem, günlük 15m³/saat kapasitede tatlı su üretebilir. Arıtılmış su, elektroliz için gerekli saflık standartlarını karşılar."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Ekonomik Analiz ve Sonuçlar",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Sistem, kullanıcıların girdiği parametrelere göre otomatik olarak:"
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Toplam yatırım maliyetini (CAPEX) hesaplar"
+            },
+            {
+              "type": "normal",
+              "content": "Yıllık işletme giderlerini (OPEX) tahmin eder"
+            },
+            {
+              "type": "normal",
+              "content": "Hidrojen üretim maliyetini ($/kg) belirler"
+            },
+            {
+              "type": "normal",
+              "content": "Net Bugünkü Değer (NPV) ve İç Verim Oranı (IRR) analizi yapar"
+            },
+            {
+              "type": "normal",
+              "content": "Geri ödeme süresini (Payback Period) hesaplar"
+            },
+            {
+              "type": "normal",
+              "content": "CO₂ emisyon tasarrufunu ve çevresel faydaları raporlar"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Projenin Toplumsal ve Çevresel Etkileri",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Yeşil hidrojen, fosil yakıtlara alternatif olarak ulaşım, ısınma ve endüstriyel süreçlerde kullanılabilir. Bir kg hidrojen, yaklaşık 3.3 kg benzin enerjisine eşdeğerdir ve yanma sonucu sadece su buharı üretir. Bu proje, Türkiye'nin "
+          },
+          {
+            "type": "bold",
+            "content": "2053 Net Sıfır Emisyon hedefine"
+          },
+          {
+            "type": "normal",
+            "content": " ulaşmasında kritik bir rol oynayabilir. Ayrıca, yerel istihdama katkı sağlayarak bölgesel ekonomik kalkınmayı destekler."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Gelecek Vizyonu",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Bu proje, Türkiye'nin enerji dönüşümü yolculuğunda önemli bir adımdır. Sistemin geliştirilmesi, ülkemizin yenilenebilir enerji kaynaklarını en verimli şekilde kullanmasını sağlayacak, enerji ithalatını azaltacak ve yeşil ekonomiye geçişi hızlandıracaktır. Gelecekte, yapay zeka destekli optimizasyon algoritmaları ve gerçek zamanlı izleme sistemleri ile proje daha da güçlendirilecektir."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+    ],
+    english_blocks: [
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Developed in line with Turkey's energy independence and sustainable development goals, the "
+          },
+          {
+            "type": "bold",
+            "content": "Green Hydrogen Production Project"
+          },
+          {
+            "type": "normal",
+            "content": " is an innovative web-based software system that analyzes the economic feasibility of hydrogen production from seawater using offshore wind energy. This project aims to illuminate Turkey's energy future by combining clean energy production with the hydrogen economy."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "About the Project",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          marginTop: '1.4rem',
+          color: 'var(--text-color)',
+        }
+      },
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "This project aims to develop a comprehensive package program that evaluates Turkey's renewable energy potential and performs economic analysis of "
+          },
+          {
+            "type": "bold",
+            "content": "green hydrogen"
+          },
+          {
+            "type": "normal",
+            "content": " production from seawater using offshore wind energy. The system provides detailed cost analysis, feasibility studies, and optimization recommendations for investors and energy companies."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Key Features",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "🌊 Seawater Desalination: Freshwater production from seawater using Reverse Osmosis (RO) technology and preparation for electrolysis"
+            },
+            {
+              "type": "normal",
+              "content": "⚡ Electrolysis System: Hydrogen gas production from water molecules using PEM and Alkaline electrolyzers"
+            },
+            {
+              "type": "normal",
+              "content": "💨 Wind Energy Integration: Converting electricity from offshore wind turbines into hydrogen production"
+            },
+            {
+              "type": "normal",
+              "content": "📊 Economic Analysis Module: Detailed cost calculations, CAPEX/OPEX analysis, and investment return periods"
+            },
+            {
+              "type": "normal",
+              "content": "🔍 Optimization Algorithms: AI-powered system optimization and efficiency improvement"
+            },
+            {
+              "type": "normal",
+              "content": "🌍 Environmental Impact Analysis: CO₂ emission reduction calculations and sustainability reporting"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+      
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "How the System Works?",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "The system has an integrated structure consisting of "
+          },
+          {
+            "type": "bold",
+            "content": "three main stages:"
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Energy Production: Offshore wind turbines generate electricity by harnessing high wind speeds. Turkey's coastal regions, especially the Black Sea and Aegean Sea, have high wind potential."
+            },
+            {
+              "type": "normal",
+              "content": "Water Treatment and Preparation: Seawater is purified using Reverse Osmosis (RO) technology and made suitable for electrolysis. RO membrane systems remove 99% of salts and minerals from seawater."
+            },
+            {
+              "type": "normal",
+              "content": "Hydrogen Production: Purified water is separated into hydrogen and oxygen through electrolyzers. PEM electrolyzers produce high-purity hydrogen, while Alkaline electrolyzers offer more cost-effective solutions. The produced hydrogen is stored in pressurized tanks or underground storage facilities."
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+          listStyle: 'decimal',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Web-Based Analysis System",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+      
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "The software component of the project was developed using "
+          },
+          {
+            "type": "bold",
+            "content": "React.js "
+          },
+          {
+            "type": "normal",
+            "content": "frontend and "
+          },
+          {
+            "type": "bold",
+            "content": "PHP "
+          },
+          {
+            "type": "normal",
+            "content": "backend technologies. The system allows users to:"
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Simulate different wind turbine capacities"
+            },
+            {
+              "type": "normal",
+              "content": "Compare electrolyzer types"
+            },
+            {
+              "type": "normal",
+              "content": "Calculate seawater treatment costs"
+            },
+            {
+              "type": "normal",
+              "content": "Analyze total investment costs and payback periods"
+            },
+            {
+              "type": "normal",
+              "content": "Visualize environmental impact and carbon emission savings"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Economic Model and Calculations",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "The system performs comprehensive economic modeling. In CAPEX (Capital Expenditure) calculations, wind turbine costs, electrolyzer investment, RO system installation, and infrastructure expenses are analyzed in detail. In the OPEX (Operating Expenses) section, maintenance costs, personnel expenses, and repair costs are calculated on an annual basis."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Technological Infrastructure",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Frontend: Modern Interface with React.js",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "The user interface developed using React.js works seamlessly on all devices with responsive design principles. Users can easily access all system functions through interactive charts, dynamic calculation tools, and detailed reporting features."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Backend: Powerful Data Processing with PHP",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "The PHP backend performs complex economic calculations, securely stores user data, and communicates with the frontend through API endpoints. Database management is handled using MySQL."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Project Purpose and Goals",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Energy Independence: Supporting energy production from domestic and renewable sources by reducing Turkey's external dependency"
+            },
+            {
+              "type": "normal",
+              "content": "Economic Evaluation: Providing detailed economic analysis and feasibility reports to investors and decision-makers"
+            },
+            {
+              "type": "normal",
+              "content": "Sustainable Development: Contributing to the spread of environmentally friendly energy systems by reducing carbon emissions"
+            },
+            {
+              "type": "normal",
+              "content": "Technological Innovation: Leading digital transformation in the energy sector with domestic software solutions"
+            },
+            {
+              "type": "normal",
+              "content": "Investment Optimization: Determining the optimal system configuration for different scenarios"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Technical Details",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Wind Energy Potential",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '.6rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Turkey has high wind potential, especially on the Black Sea and Aegean Sea coasts. According to Global Wind Atlas data, the average wind speed in offshore areas is between 7-9 m/s. This potential provides ideal conditions for efficient hydrogen production."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Electrolysis Technologies",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '1.4rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "The system supports two main electrolysis technologies:"
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "PEM (Proton Exchange Membrane) Electrolysis: High-purity hydrogen production (99.9%+), fast response time, compact design. However, higher cost."
+            },
+            {
+              "type": "normal",
+              "content": "Alkaline Electrolysis: Lower investment cost, proven technology, long lifespan. However, larger dimensions and slower response time."
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Seawater Treatment System",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1.5rem',
+          marginTop: '1.4rem',
+          color: '#455a64',
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "Using Reverse Osmosis (RO) technology, seawater first goes through pre-treatment, then passes through high-pressure membranes to be desalinated. The system can produce freshwater at a capacity of 15m³/hour daily. The purified water meets the purity standards required for electrolysis."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "line",
+        style: {
+          width: '100%',
+          height: '1px',
+          backgroundColor: 'var(--text-color)',
+          marginTop: '1.4rem',
+          marginBottom: '1.4rem',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Economic Analysis and Results",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "The system automatically performs the following based on user-entered parameters:"
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "list",
+        content: {
+          "items": [
+            {
+              "type": "normal",
+              "content": "Calculates total investment cost (CAPEX)"
+            },
+            {
+              "type": "normal",
+              "content": "Estimates annual operating expenses (OPEX)"
+            },
+            {
+              "type": "normal",
+              "content": "Determines hydrogen production cost ($/kg)"
+            },
+            {
+              "type": "normal",
+              "content": "Performs Net Present Value (NPV) and Internal Rate of Return (IRR) analysis"
+            },
+            {
+              "type": "normal",
+              "content": "Calculates payback period"
+            },
+            {
+              "type": "normal",
+              "content": "Reports CO₂ emission savings and environmental benefits"
+            }
+          ]
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+          marginLeft: '40px',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Social and Environmental Impacts of the Project",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: [
+          {
+            "type": "normal",
+            "content": "Green hydrogen can be used as an alternative to fossil fuels in transportation, heating, and industrial processes. One kg of hydrogen is equivalent to approximately 3.3 kg of gasoline energy and produces only water vapor as a result of combustion. This project can play a critical role in Turkey's achievement of its "
+          },
+          {
+            "type": "bold",
+            "content": "2053 Net Zero Emission target."
+          },
+          {
+            "type": "normal",
+            "content": " Additionally, it supports regional economic development by contributing to local employment."
+          },
+        ],
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+
+      {
+        state: "Title",
+        content: {
+          "normal": "Future Vision",
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '2rem',
+          color: 'var(--text-color)',
+          marginTop: "1.4rem"
+        }
+      },
+
+      {
+        state: "Text",
+        content: {
+          "normal": "This project is an important step in Turkey's energy transformation journey. The development of the system will enable our country to use renewable energy resources most efficiently, reduce energy imports, and accelerate the transition to a green economy. In the future, the project will be further strengthened with AI-powered optimization algorithms and real-time monitoring systems."
+        },
+        style: {
+          fontFamily: 'Noto Sans,sans-serif',
+          fontSize: '1rem',
+          color: 'var(--text-color)',
+        }
+      },
+    ],
+    description: "Açık deniz rüzgar enerjisi kullanarak deniz suyundan yeşil hidrojen üretiminin ekonomik fizibilitesini analiz eden web tabanlı bir yazılım sistemi. Yatırımcılar için detaylı maliyet analizi ve optimizasyon çözümleri sunar.",
+    technologies: ["React.js", "PHP", "MySQL", "RO Technology", "Electrolysis"],
     link: "#",
     github: "#",
-    fullDescription: "Gerçek zamanlı hava durumu bilgileri sunan modern bir mobil uygulamadır. React Native ile iOS ve Android platformlarında çalışan cross-platform uygulama, hava durumu API'leri ile entegre edilmiş ve TypeScript ile tip güvenliği sağlanmıştır. Kullanıcılar mevcut konumlarına göre hava durumunu görebilir, farklı şehirler için arama yapabilir ve detaylı hava durumu bilgilerini görüntüleyebilirler."
+    fullDescription: "Yeşil Hidrojen Üretimi Projesi, Türkiye'nin enerji bağımsızlığı ve sürdürülebilir kalkınma hedefleri doğrultusunda geliştirilmiş yenilikçi bir web tabanlı analiz sistemidir. Açık deniz rüzgar enerjisi ile deniz suyundan hidrojen üretiminin ekonomik fizibilitesini değerlendiren bu sistem, React.js ve PHP teknolojileri kullanılarak geliştirilmiştir. Yatırımcılara CAPEX/OPEX analizi, NPV ve IRR hesaplamaları, çevresel etki raporlaması ve sistem optimizasyonu gibi kapsamlı araçlar sunar. Proje, Türkiye'nin 2053 Net Sıfır Emisyon hedefine ulaşmasında kritik bir rol oynamayı hedeflemektedir."
   }
 }
