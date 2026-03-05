@@ -12,7 +12,7 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-content-left">
-            <h1 className="about-content-left-title">Bualilding Exceptional User Experiences</h1>
+            <h1 className="about-content-left-title">Building Exceptional User Experiences</h1>
             <p className="about-content-left-bio">
             I’m Muhammed Said Elsalih, a 4th-year Computer Engineering student focused on web development and Generative AI. For the past 1.5 years, I’ve been actively working as a volunteer intern in the GenAI field, gaining hands-on experience by solving real-world problems and building AI-driven solutions.
               <br/><br/>
