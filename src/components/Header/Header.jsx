@@ -50,7 +50,7 @@ const Header = () => {
                     <NavLink to="/" onClick={(e) => handleNavClick(e, 'hero')}> <AiFillHome className="icon" /> Home</NavLink>
                     <NavLink to="/about" onClick={(e) => handleNavClick(e, 'about')}> <FaIdCard className="icon" /> About</NavLink>
                     <NavLink to="/services" onClick={(e) => handleNavClick(e, 'services')}> <FaBriefcase className="icon" /> Services</NavLink>
-                    <NavLink to="/projects" onClick={(e) => handleNavClick(e, 'projects')}> <IoFolderSharp className="icon" /> Projdects</NavLink>
+                    <NavLink to="/projects" onClick={(e) => handleNavClick(e, 'projects')}> <IoFolderSharp className="icon" /> Projects</NavLink>
                     <NavLink to="/skills" onClick={(e) => handleNavClick(e, 'skills')}> <FaTools className="icon" /> Skills</NavLink>
                     <NavLink to="/contact" onClick={(e) => handleNavClick(e, 'contact')}> <IoMailSharp className="icon" /> Contact</NavLink>
                 </nav>

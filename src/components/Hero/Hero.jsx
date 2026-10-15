@@ -8,7 +8,7 @@ import profileImage from '../../assets/images/ben.jpeg'
 import cvPdf from '../../assets/cv/Muhammed_Said_Elsalih.pdf'
 
 const Hero = () => {
-  const texts = ['Gen AI Developer','Full Stack Developer', 'Mobile Developer', 'Freelancer']
+  const texts = ['Gen AI Developer','Full Stack Developer', 'Computer Engineer', 'Freelancer']
   const [currentTextIndex, setCurrentTextIndex] = useState(0)
   const [currentText, setCurrentText] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
