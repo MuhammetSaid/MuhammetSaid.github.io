@@ -77,7 +77,7 @@ const Hero = () => {
             <div className="konum-state">
               <div className="konum">
                 <FaMapMarkerAlt />
-                <p>Malatya, Turkey</p>
+                <p>Istanbul, Turkey</p>
               </div>
               <div className="state">
                 <MdWork />
