@@ -12,14 +12,16 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-content-left">
-            <h1 className="about-content-left-title">Building Exceptional User Experiences</h1>
+            <h1 className="about-content-left-title">Building Intelligent Systems with AI</h1>
             <p className="about-content-left-bio">
-            I’m Muhammed Said Elsalih, a 4th-year Computer Engineering student focused on web development and Generative AI. For the past 1.5 years, I’ve been actively working as a volunteer intern in the GenAI field, gaining hands-on experience by solving real-world problems and building AI-driven solutions.
+            I’m Muhammed Said Elsalih, a Computer Engineering graduate and a thesis-based M.Sc. student at Karadeniz Technical University. My work focuses on Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-powered applications.
               <br/><br/>
-              I develop full-stack applications using React, Flask, and REST APIs, while continuously strengthening my problem-solving and algorithmic thinking through LeetCode. I enjoy designing scalable, efficient, and user-centered systems that combine modern web technologies with AI.
+              Through hands-on software development experience, I build intelligent applications by combining modern AI frameworks with robust backend architectures, intuitive user interfaces, and scalable deployment infrastructure. I work with technologies such as Python, FastAPI, LangChain, LangGraph, React, Docker, Nginx, and AWS EC2, developing AI-powered solutions from application logic to deployment.
               <br/><br/>  
-              My goal is to build intelligent, production-ready applications by bridging web development and generative AI.
-            </p>
+              As the first-ranked graduate in my department and a TEKNOFEST 2026 Türkiye second-place award winner with BrailleVision, I’m passionate about turning innovative ideas into practical solutions that make a difference.
+              <br/><br/>  
+              My goal is to advance the field of AI by building reliable, scalable, and impactful intelligent systems.
+              </p>
           </div>
         </div>
 
